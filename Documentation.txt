@@ -2,20 +2,62 @@ Documentation
 
 Concept
 
-Jeu coopératif dans lequel les joueurs doivent trouver un trésor dans un donjon.
-Il n'y a pas de friendly fire.
-Liste des mécanismes:
-Potion de soins
-Pics (infligent des dégats)
-Plateformes volantes
-clé
-interrupteur
+Le jeu est un FFA multijoueur géré par réseau (serveur host localement par un joueur), qui se joue à 2 joueurs (le jeu était initialement prévu pour être jusqu'à 8 joueurs mais le
+fait d'héberger localement ont conduit à ce changement).
+Les joueurs disposent de 3 vies: lorsqu'un joueur est tué alors qu'il n'a plus de vie, son adversaire remporte la partie et ils retournent au lobby.
 
 Fonctionnalitées réalisées
 
+- Tir (maintenir le clic droit enfoncé)
+- Double saut (espace)
+- Login
+- Mode "prêt" pour démarrer la partie (G)
+- Victoire
+- Mort
+- Respawn
+- Game Over
+- Compte à rebours
+
+
 Fonctionnalitées non réalisées
+
+- Mode spectateur
+- Gestion du jeu à + de 2 joueurs
 
 Architecture réseau
 
+Le serveur est géré par l'un des joueurs.
+Pour faire une partie, une personne doit créer une session en appuyant sur Host server (il sera mis en attente dans le lobby).
+Pour rejoindre la partie, il faut appuyer sur le bouton Search, et cliquer sur le serveur auquel on désire se connecter.
+
+Choses gérées par le serveur:
+
+- Tir (technique)
+- Application des dégâts
+- Vérification du statut "prêt" de chaque joueur & démarrage de la partie
+- Mort
+- Respawn
+- Changements de level
+- Informations utiles pour l'interface du lobby (nombre de joueurs connectés, prêts, et lancement 
+du timer (seul le top départ est serveur, l'exécution visuelle de l'interface est côté client)
+- Nombre de vies
+
+
+Choses gérées par le client:
+
+- Tir (visuel)
+- Interfaces (sauf lobby qui utilise des informations du serveur, mais l'interface en soit est locale)
+- Inputs
+
+
+
+
 Liste des assets externes
+
+Son de tir:
+
+https://www.youtube.com/watch?v=DlktBtQeJ4M&list=PLRB9LPtPl2rItJ0co5WrejdYd6k31Jo7U&index=3 (à 4 secondes)
+
+L'intégralité des assets des maps (bâtiments, murs, braséro, etc.) vient de DwarvenCity:
+https://www.fab.com/listings/35ca06cf-a124-44aa-b2ac-5b233223f3a2
 
