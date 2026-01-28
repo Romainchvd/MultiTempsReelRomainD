@@ -67,3 +67,9 @@ Compteur de kills:
 <a href="https://www.flaticon.com/free-icons/skull" title="skull icons">Skull icons created by Smashicons - Flaticon</a>
 
 https://www.flaticon.com/free-icon/skull_3529280?related_id=3529273&origin=search
+
+Fond de l'écran titre: généré par IA
+
+Texture des boutons:
+https://www.photos-public-domain.com/2012/05/19/dark-brown-brick-wall-texture/
+Note: la résolution a été réduite et une version désaturée a été utilisée pour une texture.
