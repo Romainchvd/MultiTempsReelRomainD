@@ -62,3 +62,8 @@ L'intégralité des assets des maps (bâtiments, murs, braséro, etc.) vient de 
 https://www.fab.com/listings/35ca06cf-a124-44aa-b2ac-5b233223f3a2
 
 Viseur (Crossair): custom (Aucun problème pour la diffusion lors des JPO ou autre)
+
+Compteur de kills:
+<a href="https://www.flaticon.com/free-icons/skull" title="skull icons">Skull icons created by Smashicons - Flaticon</a>
+
+https://www.flaticon.com/free-icon/skull_3529280?related_id=3529273&origin=search
