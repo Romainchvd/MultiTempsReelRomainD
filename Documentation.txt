@@ -24,7 +24,7 @@ Fonctionnalités non réalisées
 
 
 - Gestion du jeu à + de 2 joueurs (la victoire et la défaite ne fonctionnent pas à plus de 2 joueurs et je n'ai pas réussi à le corriger, pour voir le mode spectateur et le
-corriger j'ai laissé la possibilité de se connecter à plus que 2 joueurs, mais il faut considérer qu'il s'agit bien d'un jeu à 2 joueurs).
+corriger j'ai laissé la possibilité de se connecter à plus que 2 joueurs, le jeu fonctionne comme prévu à 2 joueurs cependant).
 - Sprint (remplacé par le dash car ça incitait à toujours l'utiliser)
 
 Architecture réseau
