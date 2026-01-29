@@ -6,7 +6,7 @@ Le jeu est un FFA multijoueur géré par réseau (serveur host localement par un
 fait d'héberger localement ont conduit à ce changement).
 Les joueurs disposent de 3 vies: lorsqu'un joueur est tué alors qu'il n'a plus de vie, son adversaire remporte la partie et ils retournent au lobby.
 
-Fonctionnalitées réalisées
+Fonctionnalités réalisées
 
 - Tir (maintenir le clic droit enfoncé)
 - Double saut (espace)
@@ -14,15 +14,18 @@ Fonctionnalitées réalisées
 - Mode "prêt" pour démarrer la partie (G)
 - Victoire
 - Mort
+- Dash
 - Respawn
 - Game Over
 - Compte à rebours
+- Mode spectateur (mais seulement disponible à plus de 2 joueurs)
+
+Fonctionnalités non réalisées
 
 
-Fonctionnalitées non réalisées
-
-- Mode spectateur
-- Gestion du jeu à + de 2 joueurs
+- Gestion du jeu à + de 2 joueurs (la victoire et la défaite ne fonctionnent pas à plus de 2 joueurs et je n'ai pas réussi à le corriger, pour voir le mode spectateur et le
+corriger j'ai laissé la possibilité de se connecter à plus que 2 joueurs, mais il faut considérer qu'il s'agit bien d'un jeu à 2 joueurs).
+- Sprint (remplacé par le dash car ça incitait à toujours l'utiliser)
 
 Architecture réseau
 

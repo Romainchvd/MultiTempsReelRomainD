@@ -15,3 +15,20 @@ Le compte à rebours sera annulé si:
 - L'un des joueurs n'est plus prêt
 - Un joueur vient de rejoindre la partie
 Il est possible de lancer la partie en étant seul : le deuxième joueur apparaîtra alors directement en jeu.
+
+Contrôles:
+
+Login: clic droit pour utiliser un bouton
+
+Lobby et game :
+ZQSD pour se déplacer
+Lshift pour dash
+Espace pour sauter
+
+Lobby:
+
+G pour se mettre prêt
+
+Game:
+
+Clic droit pour tirer
